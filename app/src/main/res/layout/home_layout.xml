@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="103dp"
+            android:layout_height="74dp"
+            app:srcCompat="@drawable/logogw" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Greenwich University"
+                android:textAlignment="center"
+                android:textColor="#0F0000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MHike Application"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiking Examples:"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp">
+
+            <LinearLayout
+                android:id="@+id/layoutClever"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtClever"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CLEVELAND WAY "
+                    android:textColor="#808080"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgCleveland"
+                    android:layout_width="match_parent"
+                    android:layout_height="214dp"
+                    app:srcCompat="@drawable/hike" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Cleveland Way was designated as a National Trail in 1969 and runs for 110 miles. It starts in the pretty market town of Helmsley, near the ruins of its medieval castle, passes across the heather-clad North York Moors, before meeting the coast at Saltburn-by-the-Sea. The North Sea section then takes you down via Whitby and its spectacular ruined abbey to the finish point at Filey Brigg.  "
+                    android:textAlignment="viewStart"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutDales"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtDales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DALES WAY"
+                    android:textColor="#808080"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgDales"
+                    android:layout_width="251dp"
+                    android:layout_height="196dp"
+                    app:srcCompat="@drawable/dale" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Dales Way is an 80-mile path from Ilkley in West Yorkshire to Bowness-on-Windermere in Cumbria. It mainly follows riverside paths and passes through the Yorkshire Dales National Park and the foothills of the Lake District National Park. Starting in Ilkley, the path follows the River Wharf, passing by the ruins of Bolton Abbey, up to its source in the Pennines. It then follows river valleys to the shores of Lake Windermere.  "
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
